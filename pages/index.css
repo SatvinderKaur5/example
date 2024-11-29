@@ -1,0 +1,59 @@
+.navbar{
+    padding:20px 50px;
+    background-color: #133E87;
+    font-family: "Poppins", sans-serif;
+}
+
+.navbar-brand,.navbar-nav,.nav-link,.navbar-nav .nav-link.active{
+    color: #fff;
+    margin-left:50px;
+}
+.navbar-toggler{
+    background-color: white;;
+}
+
+#home{
+    margin:0;
+    min-height: 300px;
+    background-color: #F3F3E0;
+}
+
+.homeImg{
+    padding:0;
+    margin:0;
+    height:630px;
+}
+
+#about{
+    padding:80px;
+    min-height: 650px;
+    background-color: #CBDCEB;
+}
+
+#features{
+    padding:50px;
+    min-height: 650px;
+    background-color:#608BC1;
+    .featuresHeading{
+        font-family:"Dancing Script", cursive;
+        font-weight:bolder;
+        font-size: 50px;
+        color: #381c0b;
+        text-align: center;
+    }
+}
+.card{
+    transition: transform 0.3s ease;
+}
+.card-text{
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: bolder;
+}
+.card:hover{
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    
+}
+
+
